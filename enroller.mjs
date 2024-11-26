@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 import readline from "readline";
