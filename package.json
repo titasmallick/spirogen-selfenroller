@@ -1,0 +1,21 @@
+{
+  "name": "selfenroll_spirogen",
+  "version": "1.0.0",
+  "main": "enroller.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node enroller.mjs"
+  },
+  "keywords": ["spirogen"],
+  "author": "titas mallick",
+  "license": "ISC",
+  "description": "generates public link for spirogen api",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^13.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^3.3.2",
+    "readline": "^1.3.0"
+  }
+}
