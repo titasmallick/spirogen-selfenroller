@@ -54,6 +54,7 @@ const fetchUsers = async () => {
         users.push({
           uid: userRecord.uid,
           name: userRecord.displayName || "No Name",
+          email: userRecord.email || "No Name",
         });
       });
       nextPageToken = result.pageToken;
